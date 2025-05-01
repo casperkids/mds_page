@@ -5,6 +5,9 @@ body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 100;
     color: #686868;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     text-align: center;
@@ -101,10 +104,7 @@ ul li {
 }
 
 .wrapper {
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 120px;
-    box-sizing: border-box;
+    flex: 1;
 }
 
 footer {
@@ -113,8 +113,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
 }
 
 footer p {
