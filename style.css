@@ -30,12 +30,7 @@ header {
     opacity: 0.5;
     z-index: -1;
 }
-.wrapper {
-    min-height: 100vh;
-    position: relative;
-    padding-bottom: 120px;
-    box-sizing: border-box;
-}
+
 
 main {
     flex: 1;
@@ -104,6 +99,14 @@ ul {
 ul li {
     margin-bottom: 0.5rem;
 }
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
 footer {
     width: 100%;
     background-color: #686868;
